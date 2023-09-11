@@ -1,21 +1,6 @@
-![Streama Banner](design/banner2.png)
 # STREAMA
 
-
-
-[![Build Status](https://img.shields.io/travis/streamaserver/streama/master.svg?style=for-the-badge)](https://travis-ci.org/streamaserver/streama) 
-[![Downloads](https://img.shields.io/github/downloads/streamaserver/streama/total.svg?style=for-the-badge)](https://github.com/streamaserver/streama/releases)
-[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](https://github.com/streamaserver/streama/blob/master/LICENSE.md) 
-[![Discord](https://img.shields.io/discord/432358302496849931.svg?style=for-the-badge)](https://discord.gg/CJEHWX9)
-
-  
-Docs: https://docs.streama-project.com/  
-
-Ever had a huge bookshelf full of shows and movies? Ever wanted to digitalize them, but didn't have a good way of organizing the files? Worry no more! Streama is your own personal Netflix for just such a purpose!
-
-[![Visit the Docs](design/promo-page.png)](https://github.com/streamaserver/streama/wiki) 
-[![Live Demo](design/live-demo-button.png)](https://streama.demo-version.net/) 
-[![Streama on Google Play store](design/google-play-badge.jpg)](https://play.google.com/store/apps/details?id=dularion.streama) 
+Ever had a huge bookshelf full of shows and movies? Ever wanted to digitalize them, but didn't have a good way of organizing the files? Worry no more! Streama is your own personal streaming app for just such a purpose! 
 
 ## Live-Demo
 https://streama.demo-version.net/   
@@ -24,18 +9,7 @@ Feel free to play around there as much as you like (everything is reset at night
 We will keep this demo updated with our newest releases as they come, so that you can check out new features there first before deciding to deploy them in your own environments. 
 
 
-
-## Donate
-<span class="badge-patreon"><a href="https://www.patreon.com/user?u=7362340" title="Donate to this project using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a></span>
-<span class="badge-paypal"><a href="https://www.paypal.me/AntoniaEngfors" title="Donate to this project using Paypal"><img src="https://img.shields.io/badge/paypal-donate-yellow.svg" alt="PayPal donate button" /></a></span>
-
-If you want to donate to the developer via bitcoin use 17rCUEX6KYQ8ZM4w39ttEUL7SUDnGCpcWq  
-
-
-
 ## Table of contents:
-- [Getting Started](#getting-started)
-- [Downloads](#downloads)
 - [The Application](#the-application)
   - [Settings](#settings)
   - [The Dashboard](#the-dashboard)
@@ -44,20 +18,6 @@ If you want to donate to the developer via bitcoin use 17rCUEX6KYQ8ZM4w39ttEUL7S
   - [Accessing existing files](#accessing-existing-files)
   - [The Users](#the-users) 
 - [Technical Details](#technical-details)
-- [Changelog](#changelog)
-- [Roadmap](#roadmap)
-- [Known Issues](#known-issues)
-- [Contributing](#contributing)
-- [License](#license)
-
-# Getting Started
-- [Installation and first-time setup](https://docs.streama-project.com/getting-started/installing/)
-
-If you have any issues getting started, feel free to [chat with us on Discord](https://discord.gg/CJEHWX9). We are more than happy to assist and then improve the docs accordingly. 
-
-# Downloads
-- **Stable and beta** versions see the GitHub [releases](https://github.com/streamaserver/streama/releases)
-
 # The Application
 
 ### Settings
@@ -146,28 +106,3 @@ Users can be invited and managed in the admin panel. By default, they are non-ad
 This application is web-based, the server-side is written on [Grails 3](https://grails.org/) with [SpringSecurity](http://projects.spring.io/spring-security/) for login & user-handling. For all the front-end components, [AngularJS](https://angularjs.org/) is used and the player is completely HTML5-based. The application is essentially split into Grails for a REST-API, and AngularJS for the frontend.
 
 Streama uses the [awesome API](https://www.themoviedb.org/documentation/api) from [theMovieDatabase](https://www.themoviedb.org) for all media-metadata.
-
-# Changelog
-Please refer to the description of each [release](https://github.com/streamaserver/streama/releases) or the git log.
-
-# Roadmap
-Streama is still very much a work-in-progress. We will be adding new features and bug-fixes often, but this is a hobby project for the core-contributors, so the time that we can spend on it is limited.
-
-For all our feature and bug tracking, we use the [Issues Section](https://github.com/streamaserver/streama/issues). Streama's 'roadmap' is currently to work through the feature requests and improvements that are in the issue tracker.  Take a look at the milestones for what we intend to add for upcoming releases.
-
-
-# Contributing
-### Features, Improvements, and Bugfixes
-Streama currently only has ~2-3 core-contributors so we are grateful for any extra contributions. Send through a Pull Request and we will review it ASAP.
-
-If you're not sure what to work on, take a look at the [issues](https://github.com/streamaserver/streama/issues). There are lots to do!
-
-### Translations
-If you want to contribute a translation, please follow [the guide here](https://github.com/streamaserver/streama/wiki/Translating-the-app). 
-
-# Known Issues
-- There is no video-conversion currently, meaning you are reliant upon HTML5 browser compatibilities. Server-side conversion is on our roadmap. See Issue [#440](https://github.com/streamaserver/streama/issues/440)
-
-# License
-Streama is distributed under the terms of the MIT license.
-See [LICENSE.md](https://github.com/streamaserver/streama/blob/master/LICENSE.md) for details.
